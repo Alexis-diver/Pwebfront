@@ -1,24 +1,25 @@
-# Dependencias
+# Dependencies
 node_modules/
-npm-debug.log*
-yarn-debug.log*
 
-# Builds (se genera con npm run build)
+# Production build
 build/
-dist/
-.next/  # Si usas Next.js
 
-# Archivos de entorno
+# Environment variables
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Logs y temps
+# Logs
 *.log
-.DS_Store
-Thumbs.db
+npm-debug.log*
 
-# IDE
-.vscode/settings.json  # Opcional
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temp files
+.DS_Store
